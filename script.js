@@ -10,7 +10,6 @@
 //Version 5 with entering lbs: CORRECT VERSION.  USE THIS AS BACKUP
 $('#output').css('visibility', 'hidden');
 $('#lbsInput').keyup(function () {
-  alrt('i broke you')
   $('#output').css('visibility', 'visible');
   const lbs = $('#lbsInput').val();
   $('#gramsOutput').html(Math.floor(lbs / 0.0022046));
