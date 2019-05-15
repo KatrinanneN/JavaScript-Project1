@@ -13,7 +13,7 @@ $('#lbsInput').keyup(function () {
   $('#output').css('visibility', 'visible');
   const lbs = $('#lbsInput').val();
   $('#gramsOutput').html(Math.floor(lbs / 0.0022046));
-  $('#kgOutput').html(Math.floor(lbs / 2.2046));
+  $('#kgOutput').html((lbs / 2.2046).toFixed(2));
   $('#ozOutput').html(Math.floor(lbs * 16));
 });
 
