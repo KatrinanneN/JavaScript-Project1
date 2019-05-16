@@ -19,8 +19,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 }
 
 body {
-    background: #96858f;
-    font-size: 1.5rem;
+    background: rgb(32, 32, 32);
 
 }
 
@@ -28,6 +27,73 @@ html {
     font-size: 62.5%;
 }
 
+.weightEntry {
+    text-align: center;
+
+}
 
 
+.container, .conversionSection {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 5rem;
+    font-family: 'Karla', sans-serif;
+}
+
+#output {
+    text-align: center;
+}
+
+h4, #gramsOutput, #kgOutput, #ozOutput, #lbsOutput   {
+    font-size: 1.5rem;
+    font-family: 'Karla', sans-serif;
+
+}
+
+#gramsOutput, #kgOutput, #ozOutput, #lbsOutput {
+    border: 1px solid white;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1, h4 {
+    color: white;
+}
+
+#gramsOutput {
+    background: wheat;
+}
+
+#kgOutput {
+    background: #6D7993;
+}
+
+#ozOutput {
+    background: #9099A2;
+}
+
+#lbsOutput {
+    background: #96858f;
+}
+
+
+.formSection {
+    font-size: 1.5rem;
+    font-family: 'Karla', sans-serif;
+    padding: 10px;
+    
+}
+
+#options {
+    font-size: 1.5rem;
+    font-family: 'Karla', sans-serif;
+    padding: 6px 43px;
+
+}
 

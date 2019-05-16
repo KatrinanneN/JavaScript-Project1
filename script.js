@@ -14,8 +14,6 @@ $('#options').change(function () {
   const selected = $("#options").val();
   const unit = $('#lbsInput').val();
   doCalculation(unit, selected);
-
-
 });
 
 function doCalculation(unit, selected) {
