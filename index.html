@@ -20,20 +20,17 @@
                 <section class="weightEntry">
                     <form>
                         <div class="form-group">
-                            <input id="lbsInput" type="number" class="formSection" placeholder="Enter pounds">
+                            <input id="lbsInput" type="number" class="formSection" placeholder="Enter weight">
                         </div>
                     </form>
-                    <select>
-                        <option value="" disabled selected>Enter weight</option>
+                    <select id="options">
+                        <!-- <option value="" disabled selected>Select unit</option> -->
                         <option value="lbs">Pounds</option>
-                        <option value="grams">Grams</option>
+                        <option value="g">Grams</option>
                         <option value="kg">Kilograms</option>
                         <option value="oz">Ounces</option>
                     </select>
-
                 </section>
-
-
 
                 <!-- <section class="conversionSection">
                     <form>
@@ -43,6 +40,14 @@
                     </form>
                 </section> -->
                 <div id="output">
+                    <div class="poundsContainer">
+                        <div class="test">
+                            <div class="lbsConversion">
+                                <h4>Pounds:</h4>
+                                <div id="lbsOutput"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="gramsContainer">
                         <div class="test">
                             <div class="gramsConversion">
