@@ -1,6 +1,7 @@
-//1. Display an empty box to input lbs
-//2. User enters lbs
-//3. Once user enters lbs, the conversion for grams, oz and kilograms are displayed
+//1. Display an empty box to input any unit number
+//2. User enters unit number
+//3. Once user enters unit number, the conversion for lbs, grams, oz and kilograms are displayed simultaneously
+//4. When a user modifies the number in the main input box, all unit conversions change simultaneously
 
 $('#output').css('visibility', 'hidden');
 $('#lbsInput').keyup(function () {
@@ -29,7 +30,6 @@ function doCalculation(unit, selected) {
   }
 
 }
-
 
 function lbs(pounds) {
   $('#lbsOutput').html(pounds);
